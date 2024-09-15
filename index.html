@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Static Resume Builder</h1>
+        <h2>By Arisha Atif</h2>
+        <h4>Quarter 02 Project</h4>
+        <form id="resumebuilderForm">
+            <fieldset>
+                <legend>Personal Details</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <br>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Education Details</legend>
+                <label for="institution">Institution Name:</label>
+                <input type="text" id="institution" name="institution" required>
+                <br>
+
+                <label for="degree">Degree:</label>
+                <input type="text" id="degree" name="degree" required>
+                <br>
+
+                <label for="year">Year of Graduation:</label>
+                <input type="number" id="year" name="year" min="1900" max="2099" required>
+                <br>
+
+                <label for="details">Additional Details:</label>
+                <textarea id="details" name="details" rows="3" cols="30" placeholder="Write about your academic achievements, notable courses, etc."></textarea>
+                <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Experience</legend>
+                <label>Company:</label>
+                <input type="text" name="company">
+                <br><br>
+
+                <label>Role:</label>
+                <input type="text" name="role">
+                <br><br>
+
+                <label>Years:</label>
+                <input type="text" name="years">
+                <br><br>
+
+                <label>Responsibilities:</label>
+                <textarea name="responsibilities" rows="3" cols="30"></textarea>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Skills</legend>
+                <label for="skills">Skills:</label>
+                <textarea id="skills" name="skills" rows="3" cols="30"></textarea>
+                <br>
+            </fieldset>
+            <br>
+            <button type="submit">Craft Your Resume Below</button>
+        </form>
+    </div>
+</body>
+</html>

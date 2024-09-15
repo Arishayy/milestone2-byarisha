@@ -1,0 +1,114 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(223, 234, 236);
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+.container {
+    text-align: center; 
+    background-color: #fff; 
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+}
+
+h2{
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+h4{
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    margin : auto;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    padding: 20px;
+}
+
+fieldset{
+    border: 2px solid #7d7878;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(223, 234, 236);
+}
+
+legend{
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+    text-align: left;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+
+input,textarea {
+    width: calc(100% - 16px);
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: #7d7878;
+}
+
+button[type="submit"] {
+    background-color: #4cafaa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e81;
+}
+
+    
+
+
+
+
+
+
+
+
